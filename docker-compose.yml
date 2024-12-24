@@ -4,7 +4,7 @@ services:
     image: postgres:13
     container_name: db_erp
     environment:
-      - POSTGRES_DB=penjat
+      - POSTGRES_DB=the_bear
       - POSTGRES_PASSWORD=admin
       - POSTGRES_USER=admin
     ports:

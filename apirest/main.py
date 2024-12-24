@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from starlette.middleware.cors import CORSMiddleware
-from SGE_bloc2.apirest.routers import users
+import users
+
 #from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
