@@ -1,10 +1,25 @@
 import pandas as pd
+#import dict_to_db
 
 
-def csv_to_dict():
-    df = pd.read_csv("")
-    data = df.to_dict(oritent='list')
+def csv_to_dict(table):
+    df = pd.read_csv(table)
+    data = df.to_dict(orient='list')
 
     return data
 
-print(csv_to_dict())
+
+def send_data():
+    #dict_to_db.send_data_to_db(data)
+    print(csv_to_dict("Clientes2.csv"))
+    print(type(csv_to_dict("Clientes2.csv")))
+
+
+send_data()
+# print(csv_to_dict("Cuentas.csv"))
+# print(csv_to_dict("menu.csv"))
+# print(csv_to_dict("Mesas.csv"))
+# print(csv_to_dict("Métodos_de_Pago.csv"))
+# print(csv_to_dict("Pedidos.csv"))
+# print(csv_to_dict("Ventas.csv"))
+# print(csv_to_dict("restaurantes.csv"))

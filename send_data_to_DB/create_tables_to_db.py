@@ -26,7 +26,7 @@ def create_tables():
         Descripción_Plato TEXT,
         Nivel_Dificultad VARCHAR(20),
         Precio DECIMAL(10, 2),
-        opcion_menu VARCHAR(20) CHECK (opcion_menu IN ('vegetariano', 'vegano', 'omnivoro'));'''
+        opcion_menu VARCHAR(20) CHECK (opcion_menu IN ('vegetariano', 'vegano', 'omnivoro')));'''
 
     sql_clients = '''
         CREATE TABLE Clientes (
