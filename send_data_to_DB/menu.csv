@@ -1,0 +1,31 @@
+ID_Plato,Nombre_Plato,Descripción_Plato,Nivel_Dificultad,Precio,ID_Categoria,opcion_menu
+1,Ensalada de la Tierra,"Una ensalada colorida con lechugas, tomates, pepinos, y una variedad de verduras frescas.",Fácil,"6,89",,vegetariano
+2,Risotto de Espinacas y Setas,Un risotto cremoso con espinacas frescas y setas sautéadas.,Difícil,"8,35",,vegetariano
+3,Lasaña de Berenjenas y Queso,"Capas de berenjenas asadas, salsa de tomate y queso parmesano.",Moderado,"7,56",,vegetariano
+4,Gazpacho Andaluz,Un gazpacho fresco y refrescante con ingredientes típicos andaluces.,Fácil,"3,50",,vegetariano
+5,Crema Caliente de Tomate y Verduras,Una crema suave con tomates y una variedad de verduras asadas.,Difícil,"3,25",,vegetariano
+6,Berenjenas a la Toscana,"Berenjenas asadas con ricotta y tomate seco, inspiradas en la cocina toscana.",Moderado,"5,78",,vegetariano
+7,Curry de Calabaza y Coliflor,"Un curry aromático con calabaza y coliflor, acompañado de arroz jazmín.",Fácil,"4,50",,vegetariano
+8,Pizza de Berenjena y Ricotta,"Una pizza vegetariana con berenjenas asadas, ricotta y pesto casero.",Difícil,"9,00",,vegetariano
+9,Tartaletas de Queso de Cabra con Cebolla Caramelizada,"Tartaletas de hojaldre rellenas de queso de cabra, cebolla caramelizada y avellanas ralladas",Moderado,"8,65",,vegetariano
+10,Velouté de Zanahoria con Leche de Coco,Un velouté cremoso de zanahoria con leche de coco y toques de curry.,Fácil,"7,75",,vegetariano
+11,Tofu Tikka Masala Magnifico,Un plato indio inspirado con tofu marinado en especias y servido en una rica salsa de tomate.,Fácil,"8,50",,vegano
+12,Ensalada de Quinoa y Granada,"Una ensalada fresca y colorida con quinoa, granada, lechugas variadas, y un aderezo cítrico.",Moderado,"6,50",,vegano
+13,Rollitos de Calabacín con Quinoa y Champiñones,"Calabacines rellenos de quinoa cocida, champiñones salteados, y especias, servidos con una salsa de tomate casera.",Difícil,"8,50",,vegano
+14,Pasta Carbonara de Tofu Ahumado,"Una versión vegana de la clásica carbonara, con tofu ahumado crujiente, guisantes y una crema de leche de soja.",Fácil,"5,80",,vegano
+15,Sopa Ramen con Tofu Crujiente,"Una sopa ramen japonesa con tofu crujiente, fideos soba, y una rica sopa de miso.",Moderado,"4,30",,vegano
+16,Tacos de Col Rizada con Guacamole de Mango,"Tacos frescos de col rizada rellenos de frijoles negros, maíz asado, y un guacamole de mango picante.",Difícil,"3,20",,vegano
+17,Risotto de Espárragos y Limón con Pesto de Albahaca,"Un risotto cremoso con espárragos frescos, limón, y un pesto de albahaca casero.",Difícil,"6,60",,vegano
+18,Fajitas de Calabacín al Curry con Garbanzos,"Fajitas vibrantes de calabacín y garbanzos al curry, servidas con arroz jazmín y una salsa de chipotle.",Moderado,"4,50",,vegano
+19,Bowl de Arroz Integral con Tinga Vegana,"Un bowl de arroz integral con tinga vegana hecha de garbanzos, palmitos, y aguacate, todo sobre un lecho de arroz blanco.",Fácil,"7,80",,vegano
+20,Palak Paneer de Tofu con Espinacas y Anacardos,"Un plato indio inspirado con tofu crujiente en una salsa de espinacas y anacardos, servido con arroz basmati.",Moderado,"10,40",,vegano
+21,Tournedos Rossini con Trufa y Espinacas,"Un filete de ternera con foie gras, trufa y espinacas, servido con una salsa Madeira.",Difícil,"9,90",,obnivoro
+22,Pollo al Curry con Arroz Basmati y Verduras,"Pollo cocinado en un curry aromático, servido con arroz basmati y una variedad de verduras frescas.",Fácil,"5,45",,obnivoro
+23,Cazuela de Mariscos y Chorizo,"Una cazuela rica con mariscos, chorizo, y una variedad de verduras, cocinada en un caldo sabroso.",Difícil,"12,00",,obnivoro
+24,"Hamburguesa Gourmet con Queso, Bacon y Cebolla Caramelizada","Una hamburguesa de carne de res con queso derretido, bacon crujiente, y cebolla caramelizada.",Moderado,"8,50",,obnivoro
+25,"Paella Valenciana con Pollo, Conejo y Mariscos","Una paella clásica valenciana con pollo, conejo, mariscos, y una variedad de verduras.",Fácil,"7,55",,obnivoro
+26,Salmón a la Parrilla con Ensalada de Quinoa y Aguacate,"Salmón a la parrilla servido con una ensalada de quinoa, aguacate, y un aderezo cítrico.",Difícil,"11,30",,obnivoro
+27,Tacos de Carnitas con Salsa de Aguacate y Cilantro,"Tacos de carnitas (cerdo deshebrado) con salsa de aguacate, cilantro, y limón.",Moderado,"6,60",,obnivoro
+28,Estofado de Ternera con Zanahorias y Papas,"Un estofado rico de ternera con zanahorias, papas, y una variedad de hierbas aromáticas.",Fácil,"6,00",,obnivoro
+29,"Pizza Mediterránea con Chorizo, Aceitunas y Queso Feta","Una pizza mediterránea con chorizo, aceitunas, queso feta, y tomate fresco.",Difícil,"9,65",,obnivoro
+30,Fajitas de Pollo y Camarones con Pimientos y Cebolla,"Fajitas vibrantes de pollo y camarones, cocinados con pimientos y cebolla, servidas con tortillas de maíz y guacamole.",Moderado,"7,75",,obnivoro
