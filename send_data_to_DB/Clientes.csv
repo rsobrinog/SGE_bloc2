@@ -1,4 +1,4 @@
-ID_Cliente,Nombre_Cliente,Dirección_Cliente,Teléfono_Cliente ,Correo_Electrónico_Cliente,Fecha_Cumpleaños
+ID_Cliente,Nombre_Cliente,Dirección_Cliente,Teléfono_Cliente,Correo_Electrónico_Cliente,Fecha_Cumpleaños
 1,Roger,"Carrer de Balmes, 127",612345678,roger@example.com,1990-05-15
 2,Juan Manuel,"Avinguda Diagonal, 456",612987654,juanmanuel@example.com,1985-11-22
 3,Josep Oriol,"Carrer de Provença, 223",613456789,joseporiol@example.com,2000-03-07

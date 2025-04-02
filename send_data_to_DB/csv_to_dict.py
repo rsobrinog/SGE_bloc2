@@ -1,5 +1,5 @@
 import pandas as pd
-#import dict_to_db
+import dict_to_db
 
 
 def csv_to_dict(table):
@@ -10,9 +10,11 @@ def csv_to_dict(table):
 
 
 def send_data():
-    #dict_to_db.send_data_to_db(data)
-    print(csv_to_dict("Clientes2.csv"))
-    print(type(csv_to_dict("Clientes2.csv")))
+    data = csv_to_dict("Clientes.csv")
+    dict_to_db.send_data_to_db(data)
+    #print(csv_to_dict("Clientes2.csv"))
+    #print(type(csv_to_dict("Clientes2.csv")))
+    return {"Data sended succesfully"}
 
 
 send_data()
