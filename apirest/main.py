@@ -44,13 +44,13 @@ async def new_user():
 
 # 6. Endpoint per afegir usuaris
 @app.post("/users/create/", response_model=dict, tags=["USUARIS"])
-def create_user(name: str, email:str, age:int, db:Session = Depends(get_db)):
+async def create_user(name: str, email:str, age:int, db:Session = Depends(get_db)):
     result = user.add_new_user(name, email, age, db)
     return result
 
 # 7. Endpoint per llegir usuaris
 @app.get("/users/read/", response_model= list[dict], tags=["USUARIS"])
-def read_user(db:Session = Depends(get_db)):
+async def read_user(db:Session = Depends(get_db)):
     result = user.get_all_users(db)
     return result
 
@@ -59,11 +59,16 @@ async def update_user(id:int,name: str, db:Session = Depends(get_db)):
     result = user.update_user(id, name, db)
     return result
 
-@app.delete("/user/delete/", response_model=dict, tags=["USUARIS"])
-async def delete_user(id:int, db:Session = Depends(get_db)):
-    result = user.delete_user(id, db)
+@app.delete("/user/delete/{userId}", response_model=dict, tags=["USUARIS"])
+async def delete_user(userId:int, db:Session = Depends(get_db)):
+    result = user.delete_user(userId, db)
     return result
 
+
+@app.get("/users/get", response_model= list[dict])
+async def find_users():
+    result = user.get_users()
+    return result
 
 
 
