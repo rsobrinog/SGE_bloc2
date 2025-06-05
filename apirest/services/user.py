@@ -1,6 +1,16 @@
 from schema.users_sch import users_schema
 from sqlmodel import Session, select
 from models.User import User
+from config import database
+
+conn = database.connection_db()
+def get_users():
+    cursor = conn.cursor()
+    sql_read = "SELECT xxx FROM table"
+    cursor.execute(sql_read)
+    result = cursor.fetchall()
+    return users_schema(result)
+
 
 def get_all_users(db:Session):
     sql_read = select(User)
@@ -11,7 +21,7 @@ def add_new_user(name: str, email:str, age:int, db:Session):
     db_user = User(name=name, email=email, age=age)
     db.add(db_user)
     db.commit()
-    db.refresh(db_user)
+    #db.refresh(db_user)
     return {"msg":"Created user succesfully"}
 
 def update_user(id:int, name:str, db:Session):
@@ -30,4 +40,8 @@ def delete_user(id:int, db:Session):
     db.delete(user_db)
     db.commit()
     return {"msg":"Deleted user succesfully"}
+
+
+
+
 
